@@ -24,7 +24,8 @@ python x11vnc_desktop.py -p -i purelyapplied/relion:x11vnc -v /path/to/your/proj
 
 This will make some pretty pretty text scroll by and eventually your internet browser will pop up with your things.
 
-From that shell, run `relion` (aliased, if you're interested, in `/relion/build/bin/relion`)
+~~From that shell, run `relion` (aliased, if you're interested, in `/relion/build/bin/relion`)~~
+Apparently I'm not aliasing to the user that loads correctly.  Run the direct command `/relion/build/bin/relion`
 
 From there, I have no idea.  This is your wheelhouse, not mine.
 
