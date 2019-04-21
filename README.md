@@ -13,10 +13,12 @@ Copied from that repository for convenience is the `x11vnc_desktop.py` python sc
 (It appears to want python2.)
 
 With Docker installed (and the Docker app running, so that the container-whale is up in your hotbar up top right),
-you should be able to do the thing you want, specifying our custom image and your work directory, via
+you should be able to do the thing you want, specifying our custom image and your work directory.
+
+Use `-i` to specify our image, `-v` for your workspace, and probably throw on a `-p` to make sure your image is up-to-date.
 
 ```
-python x11vnc_desktop.py -i purelyapplied/relion:x11vnc -v /path/to/your/project/directory
+python x11vnc_desktop.py -p -i purelyapplied/relion:x11vnc -v /path/to/your/project/directory
 ```
 
 
